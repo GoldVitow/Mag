@@ -1,0 +1,57 @@
+.form {
+   display: flex;
+   flex-direction: column;
+   margin: 50px auto;
+   max-width: 500px;
+}
+
+.form > *:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+label {
+   margin-bottom: 5px !important;
+}
+
+#preview {
+   // max-width: 100px;
+   display: none;
+}
+
+h3 {
+   display: none;
+   margin-bottom: 5px !important;
+}
+
+.button {
+   display: none;
+}
+
+.img {
+}
+
+.image-block {
+   width: fit-content;
+   display: flex;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.result-block {
+   display: none;
+}
+
+h1 {
+   text-align: center;
+}
+
+#downloadButton {
+   display: none;
+}
+
+h2 {
+   text-align: center;
+   display: none;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   <h1>КЛАСТЕРИЗАТОР</h1>
+
+   <form action="" class="form">
+      <label for="upload">Загрузите изображение</label>
+      <input type="file" id="upload">
+      <label for="method">Выберите количество кластеров:</label>
+      <select name="" id="method">
+         <option value="">4</option>
+      </select>
+      <button class="button">Выполнить</button>
+      <h2 class="done">ГОТОВО</h2>
+      <button id="downloadButton">Скачать полученное изображение</button>
+   </form>
+
+   <div class="image-block">
+
+      <div class="preview-block container">
+         <h3 id="preview-heading">Превью:</h3>
+         <img id="preview" src="#" alt="Превью изображения" class="img">
+      </div>
+      <div class="result-block container">
+         <h3 id="result-heading">результат:</h3>
+      <canvas id="clusteredImageCanvas"></canvas>
+   </div>
+
+   </div>
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>
